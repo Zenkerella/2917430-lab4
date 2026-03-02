@@ -1,5 +1,10 @@
 .spinner {
-    color: coral;
+    
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid coral; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
     animation: spin 1s linear infinite; /* Required */
 }
 
@@ -9,25 +14,49 @@
 }
 
 .country-card {
-    background-color: green;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: darkturquoise;
     border-color: darkred;
-    border-width: 2px;
+    border-width: 5px;
     border-style: groove;
+    width: 400px;
+    padding: 10px;
+    margin: 10px;
 }
 
 .border-grid {
+    background-color: darkturquoise;
+    border-color: darkred;
+    border-width: 5px;
+    border-style: groove;
     display: flex;
-    align-items: flex-start;
-    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
     flex-wrap: wrap;
+    width: 400px;
+    padding: 10px;
+    margin: 10px;
+}
+
+img{
+    width: 300px;
 }
 
 .error{
+    display: flex;
+    justify-content: center;
     background-color: black;
     color: red;
     border-color: red;
     border-style: solid;
+    width: 1100px;
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
 }
 
 .hidden {
